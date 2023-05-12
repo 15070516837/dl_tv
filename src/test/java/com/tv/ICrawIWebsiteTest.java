@@ -1,9 +1,9 @@
 package com.tv;
 
-import com.tv.business.entity.TvTypeEntity;
+import com.tv.business.entity.TvType;
+import com.tv.business.service.impl.TvTypeServiceImpl;
 import com.tv.reptile.service.AbstractReptile;
 import com.tv.reptile.service.TenXunCrawlWebsite;
-import org.jsoup.Connection;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -17,7 +17,6 @@ import org.springframework.test.context.junit4.SpringRunner;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Objects;
-import java.util.Optional;
 
 /**
  * @program: dl_tv
@@ -33,18 +32,21 @@ public class ICrawIWebsiteTest {
     @Autowired
     private TenXunCrawlWebsite tenXunCrawlWebsite;
 
+    @Autowired
+    private TvTypeServiceImpl tvTypeService;
+
 
     @Test
     public void test1() {
-        tenXunCrawlWebsite.getMovies("https://v.qq.com", new AbstractReptile<TvTypeEntity>() {
+        tenXunCrawlWebsite.getMovies("https://v.qq.com", new AbstractReptile<TvType>() {
             /**
              * 爬取指定数据
              * @param url
              * @return
              */
             @Override
-            protected List<TvTypeEntity> reptileListData(String url) {
-                List<TvTypeEntity> tvTypeEntityList = new LinkedList<>();
+            protected List<TvType> reptileListData(String url) {
+                List<TvType> tvTypeEntityList = new LinkedList<>();
                 try {
                     //加载解析一个URL
                     Document doc = Jsoup.connect(url).timeout(10000).userAgent("Mozilla").get();
@@ -59,7 +61,8 @@ public class ICrawIWebsiteTest {
                         String href = label.attr("href");
                         String text = label.select("div[class=text]").first().text();
                         if (!href.contains("https:")) {
-                            TvTypeEntity build = TvTypeEntity.builder().tvId(1L).tvTypesName(text).tvTypesSort(i+1).tvParent(0L).build();
+                            TvType build = TvType.builder().tvTypesName(text).tvTypesSort(i + 1).tvParent(0L).build();
+                            build.setFilterData(text);
                             tvTypeEntityList.add(build);
                         }
                     }
@@ -75,8 +78,8 @@ public class ICrawIWebsiteTest {
              * @return
              */
             @Override
-            protected List<TvTypeEntity> getFilterData() {
-                return super.getFilterData();
+            protected List<TvType> getFilterData() {
+                return tvTypeService.getTvTypeList();
             }
         });
     }

@@ -1,5 +1,8 @@
 package com.tv.reptile.service;
 
+import com.tv.business.mapper.TvTypeMapper;
+import com.tv.business.service.impl.TvTypeServiceImpl;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 
@@ -12,6 +15,9 @@ import org.springframework.stereotype.Component;
 @Component
 public class TenXunCrawlWebsite implements ICrawlWebsite {
 
+    @Autowired
+    private TvTypeServiceImpl tvTypeService;
+
     /**
      * 爬取腾讯列表
      *
@@ -20,7 +26,7 @@ public class TenXunCrawlWebsite implements ICrawlWebsite {
      */
     @Override
     public void getLabelList(String url, AbstractReptile abstractReptile) {
-        abstractReptile.warehousing(null, url);
+        abstractReptile.warehousing(tvTypeService, url);
     }
 
     /**
@@ -31,7 +37,7 @@ public class TenXunCrawlWebsite implements ICrawlWebsite {
      */
     @Override
     public void getMovies(String url, AbstractReptile abstractReptile) {
-        abstractReptile.warehousing(null, url);
+        abstractReptile.warehousing(tvTypeService, url);
     }
 
 }

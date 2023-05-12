@@ -1,5 +1,6 @@
 package com.tv.business.entity;
 
+import com.baomidou.mybatisplus.annotation.TableField;
 import lombok.Data;
 
 /**
@@ -13,6 +14,7 @@ public class CommonEntity {
     /**
      * 需要排查过滤的数据，因为数据库已经存在
      */
+    @TableField(exist = false)
     private String filterData;
 
 }
