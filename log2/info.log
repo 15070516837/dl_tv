@@ -1,0 +1,50 @@
+2023-05-12 18:22:54.788 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting[50 line] - Starting DlTvApplication on O18AU-DWXILQ5 with PID 105424 (D:\JavaCode\redis\dl_tv\target\classes started by Json in D:\JavaCode\redis\dl_tv)
+2023-05-12 18:22:54.788 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo[646 line] - No active profile set, falling back to default profiles: default
+2023-05-12 18:22:55.322 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize[90 line] - Tomcat initialized with port(s): 8080 (http)
+2023-05-12 18:22:55.337 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-12 18:22:55.353 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Starting service [Tomcat]
+2023-05-12 18:22:55.353 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2023-05-12 18:22:55.416 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Initializing Spring embedded WebApplicationContext
+2023-05-12 18:22:55.416 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext[283 line] - Root WebApplicationContext: initialization completed in 597 ms
+2023-05-12 18:22:55.542 [INFO ] org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize[171 line] - Initializing ExecutorService 'applicationTaskExecutor'
+2023-05-12 18:22:55.699 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Starting ProtocolHandler ["http-nio-8080"]
+2023-05-12 18:22:55.715 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start[202 line] - Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-12 18:22:55.715 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted[59 line] - Started DlTvApplication in 1.226 seconds (JVM running for 2.831)
+2023-05-12 18:22:59.069 [INFO ] org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown[208 line] - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-05-12 18:23:47.382 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting[50 line] - Starting DlTvApplication on O18AU-DWXILQ5 with PID 85336 (D:\JavaCode\redis\dl_tv\target\classes started by Json in D:\JavaCode\redis\dl_tv)
+2023-05-12 18:23:47.382 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo[646 line] - No active profile set, falling back to default profiles: default
+2023-05-12 18:23:47.806 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize[90 line] - Tomcat initialized with port(s): 8080 (http)
+2023-05-12 18:23:47.806 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-12 18:23:47.823 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Starting service [Tomcat]
+2023-05-12 18:23:47.823 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2023-05-12 18:23:47.870 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Initializing Spring embedded WebApplicationContext
+2023-05-12 18:23:47.870 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext[283 line] - Root WebApplicationContext: initialization completed in 471 ms
+2023-05-12 18:23:47.964 [INFO ] org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize[171 line] - Initializing ExecutorService 'applicationTaskExecutor'
+2023-05-12 18:23:48.043 [INFO ] org.apache.juli.logging.DirectJDKLog.log[173 line] - Starting ProtocolHandler ["http-nio-8080"]
+2023-05-12 18:23:48.058 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start[202 line] - Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-12 18:23:48.058 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted[59 line] - Started DlTvApplication in 0.912 seconds (JVM running for 2.452)
+2023-05-12 20:43:43.648 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting[50 line] - Starting ICrawIWebsiteTest on O18AU-DWXILQ5 with PID 113812 (started by Json in D:\JavaCode\redis\dl_tv)
+2023-05-12 20:43:43.652 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo[646 line] - No active profile set, falling back to default profiles: default
+2023-05-12 20:43:44.682 [INFO ] org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize[171 line] - Initializing ExecutorService 'applicationTaskExecutor'
+2023-05-12 20:43:44.893 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted[59 line] - Started ICrawIWebsiteTest in 1.539 seconds (JVM running for 3.31)
+2023-05-12 20:44:17.522 [INFO ] org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown[208 line] - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-05-12 20:44:22.755 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting[50 line] - Starting ICrawIWebsiteTest on O18AU-DWXILQ5 with PID 117096 (started by Json in D:\JavaCode\redis\dl_tv)
+2023-05-12 20:44:22.759 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo[646 line] - No active profile set, falling back to default profiles: default
+2023-05-12 20:44:23.698 [INFO ] org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize[171 line] - Initializing ExecutorService 'applicationTaskExecutor'
+2023-05-12 20:44:23.976 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted[59 line] - Started ICrawIWebsiteTest in 1.519 seconds (JVM running for 3.038)
+2023-05-12 20:44:39.425 [INFO ] org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown[208 line] - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-05-12 20:45:00.690 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting[50 line] - Starting ICrawIWebsiteTest on O18AU-DWXILQ5 with PID 113876 (started by Json in D:\JavaCode\redis\dl_tv)
+2023-05-12 20:45:00.694 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo[646 line] - No active profile set, falling back to default profiles: default
+2023-05-12 20:45:01.667 [INFO ] org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize[171 line] - Initializing ExecutorService 'applicationTaskExecutor'
+2023-05-12 20:45:01.883 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted[59 line] - Started ICrawIWebsiteTest in 1.476 seconds (JVM running for 3.093)
+2023-05-12 20:45:32.439 [INFO ] org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown[208 line] - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-05-12 20:45:46.353 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting[50 line] - Starting ICrawIWebsiteTest on O18AU-DWXILQ5 with PID 101268 (started by Json in D:\JavaCode\redis\dl_tv)
+2023-05-12 20:45:46.358 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo[646 line] - No active profile set, falling back to default profiles: default
+2023-05-12 20:45:47.303 [INFO ] org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize[171 line] - Initializing ExecutorService 'applicationTaskExecutor'
+2023-05-12 20:45:47.507 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted[59 line] - Started ICrawIWebsiteTest in 1.43 seconds (JVM running for 2.946)
+2023-05-12 20:46:11.735 [INFO ] org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown[208 line] - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-05-12 20:46:35.964 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting[50 line] - Starting ICrawIWebsiteTest on O18AU-DWXILQ5 with PID 73280 (started by Json in D:\JavaCode\redis\dl_tv)
+2023-05-12 20:46:35.969 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo[646 line] - No active profile set, falling back to default profiles: default
+2023-05-12 20:46:36.985 [INFO ] org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize[171 line] - Initializing ExecutorService 'applicationTaskExecutor'
+2023-05-12 20:46:37.225 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted[59 line] - Started ICrawIWebsiteTest in 1.547 seconds (JVM running for 3.126)
+2023-05-12 20:46:50.494 [INFO ] org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown[208 line] - Shutting down ExecutorService 'applicationTaskExecutor'
